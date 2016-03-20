@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3996461C9ED759002A2B1E /* MergeTwoOrderedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3996451C9ED759002A2B1E /* MergeTwoOrderedArray.swift */; };
+		1CB058AC1C9E84320022EC54 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB058AB1C9E84320022EC54 /* MergeSort.swift */; };
 		1CC1D1711C99B30C00A28966 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1D1701C99B30C00A28966 /* main.swift */; };
 		1CC1D17A1C99B38900A28966 /* ReverseArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1D1771C99B38900A28966 /* ReverseArray.swift */; };
 		1CC1D17B1C99B38900A28966 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1D1781C99B38900A28966 /* QuickSort.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C3996451C9ED759002A2B1E /* MergeTwoOrderedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTwoOrderedArray.swift; sourceTree = "<group>"; };
+		1CB058AB1C9E84320022EC54 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		1CC1D16D1C99B30C00A28966 /* SortingAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC1D1701C99B30C00A28966 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1CC1D1771C99B38900A28966 /* ReverseArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseArray.swift; sourceTree = "<group>"; };
@@ -65,7 +69,9 @@
 			children = (
 				1CC1D1701C99B30C00A28966 /* main.swift */,
 				1CC1D1771C99B38900A28966 /* ReverseArray.swift */,
+				1C3996451C9ED759002A2B1E /* MergeTwoOrderedArray.swift */,
 				1CC1D1781C99B38900A28966 /* QuickSort.swift */,
+				1CB058AB1C9E84320022EC54 /* MergeSort.swift */,
 				1CC1D1791C99B38900A28966 /* Tool.swift */,
 			);
 			path = SortingAlgorithms;
@@ -131,7 +137,9 @@
 				1CC1D17A1C99B38900A28966 /* ReverseArray.swift in Sources */,
 				1CC1D17B1C99B38900A28966 /* QuickSort.swift in Sources */,
 				1CC1D1711C99B30C00A28966 /* main.swift in Sources */,
+				1C3996461C9ED759002A2B1E /* MergeTwoOrderedArray.swift in Sources */,
 				1CC1D17C1C99B38900A28966 /* Tool.swift in Sources */,
+				1CB058AC1C9E84320022EC54 /* MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +259,7 @@
 				1CC1D1761C99B30C00A28966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
